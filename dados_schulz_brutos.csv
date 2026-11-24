@@ -1,0 +1,4 @@
+nome_tecnico;matricula;codigo_tag;denominacao;measurement_plan;part_number;nome_caracteristica;data_medicao;hora_medicao;valor_nominal;tolerancia_inferior;tolerancia_superior;medicao_1;medicao_2
+Fabiano Dalmolin; re-2026x ; mmc-01-zeiss ; Máquina Tridimensional Calypso ; plano_cabecote_01 ; pn-99234-a ; Diâmetro Cilindro Interno ; 2026-11-18 ; 10:15:00 ; 50,00 ; 49,95 ; 50,05 ; 50,01 ; 49,99
+Fabiano Dalmolin; re-2026x ; mmc-01-zeiss ; Máquina Tridimensional Calypso ; plano_cabecote_01 ; pn-99234-a ; Espessura Ressalto Lateral ; 2026-11-18 ; 10:18:30 ; 12,00 ; 11,90 ; 12,10 ; 12,15 ; 12,11
+Fabiano Dalmolin; re-2026x ; paq-2026-01 ; Paquímetro Digital Mitutoyo ; plano_eixo_02 ; pn-88412-b ; Comprimento Total Eixo ; 2026-11-18 ; 11:05:00 ; 100,00 ; 99,98 ; 100,02 ; 100,02 ; 100,02
