@@ -4,7 +4,7 @@
 **Empresa Parceira:** Schulz S.A. (Laboratório de Metrologia)  
 **Professores Orientadores:** Prof. MSc. Hugo Menezes Barra e Prof. Rodrigo Losina  
 **Integrantes:** Fabiano Dalmolin, Felipe Sancho, Gabriel Araldi, Kauan Ramalho, Roberto Garcia  
-**Repositório Oficial:** [https://github.com/fabianodalmolin/projeto-aplicado-schulz.git](https://github.com/fabianodalmolin/projeto-aplicado-schulz.git)  
+**Repositório Oficial:** [https://github.com/fabianodalmolin/projeto-aplicado-schulz.git)](https://github.com/fabianodalmolin/projeto-aplicado-schulz.git)  
 
 ---
 

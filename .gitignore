@@ -1,1 +1,2 @@
 "*.db" ; echo "dist/" ; echo "build/" ; echo "__pycache__/" ; echo "*.spec" 
+"*.db" ; echo "dist/" ; echo "build/" ; echo "__pycache__/" ; echo "*.spec" 
