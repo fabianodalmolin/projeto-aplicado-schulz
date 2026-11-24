@@ -10,7 +10,11 @@ if os.path.exists("metrologia_schulz.db"):
         pass
 
 def emitir_relatorio_terminal(db_manager):
+<<<<<<< HEAD
     # Executa uma consulta relacional com JOIN e exibe o relatório no terminal.
+=======
+    """Executa uma consulta relacional com JOIN e exibe o relatório no terminal."""
+>>>>>>> 736ae37e0c2c53c2377a841726b0459d34d30782
     db_manager.conectar()
     
     query = """
@@ -53,6 +57,7 @@ def emitir_relatorio_terminal(db_manager):
             print(f"Equipamento / MMC: {reg[4]} (TAG: {reg[3]})")
             print(f"Part Number (Peça): {reg[5]} | Característica: {reg[6]}")
             print("-" * 80)
+<<<<<<< HEAD
             print(f"  Nominal: {reg[7]} mm  |  Tolerâncias: [{reg[8]} mm a {reg[9]} mm]")
             print(f"  Média Física Obtida: {reg[10]} mm")
             
@@ -60,6 +65,15 @@ def emitir_relatorio_terminal(db_manager):
             status = reg[11]
             status_formatado = f"🟢 [{status}]" if status == "APROVADO" else f"🔴 [{status}]"
             print(f"  STATUS FINAL: {status_formatado}")
+=======
+            print(f"Nominal: {reg[7]} mm  |  Tolerâncias: [{reg[8]} mm a {reg[9]} mm]")
+            print(f"Média Física Obtida: {reg[10]} mm")
+            
+            
+            status = reg[11]
+            status_formatado = f"🟢 [{status}]" if status == "APROVADO" else f"🔴 [{status}]"
+            print(f"STATUS FINAL: {status_formatado}")
+>>>>>>> 736ae37e0c2c53c2377a841726b0459d34d30782
             print("="*80)
             
     except sqlite3.Error as e:
@@ -67,6 +81,10 @@ def emitir_relatorio_terminal(db_manager):
     finally:
         db_manager.desconectar()
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 736ae37e0c2c53c2377a841726b0459d34d30782
 def main():
     # 1. Inicializa o gerenciador do banco de dados
     db = DatabaseManager()
